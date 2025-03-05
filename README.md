@@ -8,7 +8,7 @@ A script for Harmony Email &amp; Collaboration which utilizes the API to add or 
 - "-d", "--delete", metavar="EMAIL", help="Delete an email from the blocklist by providing the email address"
 
 ## Examples
-### Add email to blocklist & quarantine email example@test.com
+### Add email to blocklist & quarantine email 
 ```bash
 py HEC_Blocklist_API.py -a spam -e example@test.com -q true
 ```
