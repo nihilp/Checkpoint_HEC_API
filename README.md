@@ -17,3 +17,6 @@ py HEC_Blocklist_API.py -a spam -e example@test.com -q true
 ```bash
 py HEC_Blocklist_API.py -d example@test.com
 ```
+
+## API Documentation
+https://sc1.checkpoint.com/documents/Harmony_Email_and_Collaboration_API_Reference/CP_Harmony_Email_Collaboration_API_Reference_Guide.pdf
