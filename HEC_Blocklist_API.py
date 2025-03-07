@@ -233,7 +233,7 @@ def add_to_blocklist(email_pattern, action_needed, token, quarantine_all=None):
         "Accept": "application/json"
     }
     
-    comment = f"CSIRT API - {action_needed.capitalize()}"
+    comment = f"HEC API - {action_needed.capitalize()}"
     payload = {
         "requestData": {
             "senderEmail": email_pattern,
